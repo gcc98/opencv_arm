@@ -1,0 +1,2 @@
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-ar cr ../../lib/libopencv_perf_features2d_pch_dephelp.a  CMakeFiles/opencv_perf_features2d_pch_dephelp.dir/opencv_perf_features2d_pch_dephelp.cxx.obj
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-ranlib ../../lib/libopencv_perf_features2d_pch_dephelp.a

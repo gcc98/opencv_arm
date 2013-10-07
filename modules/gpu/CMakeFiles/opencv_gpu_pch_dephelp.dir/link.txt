@@ -1,0 +1,2 @@
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-ar cr ../../lib/libopencv_gpu_pch_dephelp.a  CMakeFiles/opencv_gpu_pch_dephelp.dir/opencv_gpu_pch_dephelp.cxx.obj
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-ranlib ../../lib/libopencv_gpu_pch_dephelp.a

@@ -1,0 +1,41 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/reader_writer_lock.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/queuing_rw_mutex.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/condition_variable.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/concurrent_vector.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/pipeline.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/concurrent_queue.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/cache_aligned_allocator.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/spin_rw_mutex.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/recursive_mutex.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/spin_mutex.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/arena.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/itt_notify.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/observer_proxy.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/semaphore.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/tbb_thread.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/tbb_main.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/tbb_misc.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/mutex.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/governor.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/tbb_misc_ex.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/market.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/task_group_context.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/task.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/critical_section.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/concurrent_hash_map.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/queuing_mutex.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/scheduler.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/concurrent_monitor.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/private_server.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/dynamic_link.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/tbb/tbb_statistics.cpp.obj"
+  "CMakeFiles/tbb.dir/tbb41_20130116oss/src/rml/client/rml_tbb.cpp.obj"
+  "../../lib/libtbb.pdb"
+  "../../lib/libtbb.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/tbb.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

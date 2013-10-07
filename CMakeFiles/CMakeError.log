@@ -1,0 +1,93 @@
+Determining size of off64_t failed with the following output:
+Change Dir: /home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2096161090/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2096161090.dir/build.make CMakeFiles/cmTryCompileExec2096161090.dir/build
+make[1]: 正在进入目录 `/home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2096161090.dir/OFF64_T.c.obj
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2096161090.dir/OFF64_T.c.obj   -c /home/alex/opencv/opencv_arm/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/alex/opencv/opencv_arm/CMakeFiles/CheckTypeSize/OFF64_T.c:19: error: 'off64_t' undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec2096161090.dir/OFF64_T.c.obj] 错误 1
+make[1]:正在离开目录 `/home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2096161090/fast] 错误 2
+
+/home/alex/opencv/opencv_arm/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec402871320/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec402871320.dir/build.make CMakeFiles/cmTryCompileExec402871320.dir/build
+make[1]: 正在进入目录 `/home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec402871320.dir/CheckIncludeFile.c.obj
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec402871320.dir/CheckIncludeFile.c.obj   -c /home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: error: io.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec402871320.dir/CheckIncludeFile.c.obj] 错误 1
+make[1]:正在离开目录 `/home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec402871320/fast] 错误 2
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: /home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3949803036/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3949803036.dir/build.make CMakeFiles/cmTryCompileExec3949803036.dir/build
+make[1]: 正在进入目录 `/home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3949803036.dir/CheckFunctionExists.c.obj
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections  -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3949803036.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+Linking C executable cmTryCompileExec3949803036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3949803036.dir/link.txt --verbose=1
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-gcc      -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections  -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3949803036.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec3949803036  
+CMakeFiles/cmTryCompileExec3949803036.dir/CheckFunctionExists.c.obj: In function `main':
+CheckFunctionExists.c:(.text.main+0xc): undefined reference to `jbg_newlen'
+collect2: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3949803036] 错误 1
+make[1]:正在离开目录 `/home/alex/opencv/opencv_arm/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3949803036/fast] 错误 2
+
+

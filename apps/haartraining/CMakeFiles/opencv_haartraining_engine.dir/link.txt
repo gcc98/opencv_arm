@@ -1,0 +1,2 @@
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-ar cr ../../lib/libopencv_haartraining_engine.a  CMakeFiles/opencv_haartraining_engine.dir/cvboost.cpp.obj CMakeFiles/opencv_haartraining_engine.dir/cvcommon.cpp.obj CMakeFiles/opencv_haartraining_engine.dir/cvhaarclassifier.cpp.obj CMakeFiles/opencv_haartraining_engine.dir/cvhaartraining.cpp.obj CMakeFiles/opencv_haartraining_engine.dir/cvsamples.cpp.obj
+/home/alex/temp/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-ranlib ../../lib/libopencv_haartraining_engine.a
